@@ -14,7 +14,7 @@ const reviewRoutes = require('./routers/reviewRouter');
 const logInRoutes = require('./routers/logInRouter');
 
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 //메인 디렉토리는 public file 내 정적파일들을 찾음
 
 app.use(shopRoutes);

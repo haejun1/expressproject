@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haejun1/expressproject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haejun1/expressproject/issues"
+  },
+  "homepage": "https://github.com/haejun1/expressproject#readme"
 }
